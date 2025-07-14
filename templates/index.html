@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>오늘 뭐했지?</title>
+</head>
+<body>
+    <h1>오늘 뭐했지?</h1>
+    <form method="POST">
+        <label>오늘 할 일:</label><br>
+        <input type="text" name="todo"><br><br>
+
+        <label>오늘 기분은 어때?</label><br>
+        <select name="feeling">
+            <option value="😊">😊 행복</option>
+            <option value="😐">😐 그냥 그래</option>
+            <option value="😢">😢 슬퍼</option>
+        </select><br><br>
+
+        <label>한 줄 일기:</label><br>
+        <textarea name="note"></textarea><br><br>
+
+        <button type="submit">저장하기</button>
+    </form>
+</body>
+</html>
